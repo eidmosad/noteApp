@@ -7,3 +7,4 @@ const router = express.Router();
 router.get("/notes" ,noteController.Api.getAllNotes);
 
 module.exports = router;
+
