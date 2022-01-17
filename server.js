@@ -1,4 +1,4 @@
-//imports
+
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.use("/api/v1" , noterouter);
 
 app.get("/" , (req , res)=>{
-    res.send("hello gogo!");
+    res.send("hello gogo and bebo!");
 });
 
 
